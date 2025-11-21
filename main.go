@@ -51,5 +51,5 @@ func main() {
     // Output total cost
     fmt.Println("Your total cost of the order is", totalCost, "cents.")
 
-		fmt.Println("\nDone.")
+	fmt.Println("\nDone.")
 }
