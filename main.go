@@ -32,6 +32,11 @@ func main() {
     // Calculate total cost
     var totalCost = (bolts * boltPrice) + (nuts * nutPrice) + (washers * washerPrice)
 
+    // Output order
+    fmt.Println("Number of bolts:", bolts)
+    fmt.Println("Number of nuts:", nuts)
+    fmt.Println("Number of washers:", washers)
+
     // Check order
     if nuts < bolts {
         fmt.Println("Check the Order, not enough nuts for the bolts you purchased.")

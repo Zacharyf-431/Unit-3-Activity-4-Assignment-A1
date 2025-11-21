@@ -18,6 +18,11 @@ let washers = Number(prompt("Enter the number of washers:"));
 // Calculate total cost
 let totalCost = (bolts * boltPrice) + (nuts * nutPrice) + (washers * washerPrice);
 
+// Output order
+console.log(`Number of bolts: ${bolts}`);
+console.log(`Number of nuts: ${nuts}`);
+console.log(`Number of washers: ${washers}`);
+
 // Check order
 if (nuts < bolts) {
   console.log("Check the Order, not enough nuts for the bolts you purchased.");
